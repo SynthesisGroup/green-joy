@@ -1,3 +1,30 @@
+// ScrollReveal
+ScrollReveal({ distance: '60px', delay: '200', duration: 1000, });
+ScrollReveal().reveal('.sr-in');
+ScrollReveal().reveal('.sr-up', 	{ origin: 'bottom' });
+ScrollReveal().reveal('.sr-down', 	{ origin: 'top' });
+ScrollReveal().reveal('.sr-left', 	{ origin: 'right' });
+ScrollReveal().reveal('.sr-right', 	{ origin: 'left' });
+
+ScrollReveal().reveal('.sr-delay-1', { delay: '100' });
+ScrollReveal().reveal('.sr-delay-2', { delay: '200' });
+ScrollReveal().reveal('.sr-delay-3', { delay: '300' });
+ScrollReveal().reveal('.sr-delay-4', { delay: '400' });
+ScrollReveal().reveal('.sr-delay-5', { delay: '500' });
+ScrollReveal().reveal('.sr-delay-6', { delay: '600' });
+
+// Heading
+$(".heading").each(function() {
+	var firstWord,
+	openSpan = '<span>',
+	closeSpan = '</span>';
+	firstWord = $(this).text().split(" ");
+	firstWord.unshift(openSpan);
+	firstWord.splice(2, 0, closeSpan);
+	firstWord = firstWord.join(" ");
+	$(this).html(firstWord);
+});
+			
 // Smooth Scroll
 //$('a[href*="#"]')
 $('a.anchor-link')
@@ -36,33 +63,6 @@ $('a.anchor-link')
 		}
 	}
 );
-
-// Client Carousel
-$(document).ready(function(){
-    $('.clients-logo').slick({
-		slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        arrows: false,
-        dots: false,
-		pauseOnHover: false,
-        responsive: [
-			{
-				breakpoint: 561,
-				settings: {  slidesToShow: 3 }
-        	},
-			{
-				breakpoint: 481,
-				settings: {  slidesToShow: 2 }
-        	},
-			{
-				breakpoint: 321,
-				settings: {  slidesToShow: 1 }
-        	}			
-		]
-    });
-});
 
 // Slide Menu
 smoothScroll.init();
@@ -109,21 +109,6 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 	offset: 100,
 	speed: 1000
 });
-
-// ScrollReveal
-ScrollReveal({ distance: '60px', delay: '200', duration: 1000, });
-ScrollReveal().reveal('.sr-in');
-ScrollReveal().reveal('.sr-up', 	{ origin: 'bottom' });
-ScrollReveal().reveal('.sr-down', 	{ origin: 'top' });
-ScrollReveal().reveal('.sr-left', 	{ origin: 'right' });
-ScrollReveal().reveal('.sr-right', 	{ origin: 'left' });
-
-ScrollReveal().reveal('.sr-delay-1', { delay: '100' });
-ScrollReveal().reveal('.sr-delay-2', { delay: '200' });
-ScrollReveal().reveal('.sr-delay-3', { delay: '300' });
-ScrollReveal().reveal('.sr-delay-4', { delay: '400' });
-ScrollReveal().reveal('.sr-delay-5', { delay: '500' });
-ScrollReveal().reveal('.sr-delay-6', { delay: '600' });
 
 // Modal: Close Link
 $(document).ready(function(){

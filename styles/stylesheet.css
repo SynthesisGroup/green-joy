@@ -1,5 +1,5 @@
 /* Defaults */
-body { font-size: 16px; line-height: 24px; overflow-x: hidden; }
+body { font-size: 16px; line-height: 24px; overflow-x: hidden; position: relative; }
 
 h1 { font-size: 48px; line-height: 56px; margin-bottom: 40px; }
 h2 { font-size: 40px; line-height: 48px; margin-bottom: 40px; }
@@ -57,6 +57,12 @@ table td { vertical-align: top; }
 .fc-green 	{ color: #6FB900; }
 .fc-blue 	{ color: #0099FF; }
 .fc-brown 	{ color: #2A2829; }
+
+/* Veggies */
+.veggies { position: absolute; width: 240px; height: 160px; }
+.veggies.veg-1 { top: 0; left: 0; }
+.veggies.veg-2 { top: 32%; left: 0; }
+.veggies.veg-3 { top: 64%; right: 0; }
 
 /* Header */
 header { position: fixed; width: 100%; left: 0; top: 0; z-index: 100; }
@@ -139,7 +145,7 @@ footer .logo-footer { max-width: 240px; }
    .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 
 .se-pre-con { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9999; }
-.se-pre-con { display: flex; justify-content: center; align-items: center; background-color: #575353; }
+.se-pre-con { display: flex; justify-content: center; align-items: center; background-color: #2A2829; }
 .se-pre-con img { height: 100px; width: 100px; }
 
 /* Floaters */
