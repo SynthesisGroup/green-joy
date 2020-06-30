@@ -1,0 +1,100 @@
+/* Roboto */
+@font-face {
+  font-family: 'Roboto Light';
+  src: url("../fonts/Roboto/Roboto-Light.ttf"); }
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url("../fonts/Roboto/Roboto-Regular.ttf"); }
+
+@font-face {
+  font-family: 'Roboto Italic';
+  src: url("../fonts/Roboto/Roboto-Italic.ttf"); }
+    
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url("../fonts/Roboto/Roboto-Bold.ttf"); }
+
+/* Roboto Slab */
+@font-face {
+  font-family: 'Roboto Slab Light';
+  src: url("../fonts/Roboto_Slab/RobotoSlab-Light.ttf"); }
+
+@font-face {
+  font-family: 'Roboto Slab Regular';
+  src: url("../fonts/Roboto_Slab/RobotoSlab-Regular.ttf"); }
+
+@font-face {
+  font-family: 'Roboto Slab Bold';
+  src: url("../fonts/Roboto_Slab/RobotoSlab-Bold.ttf"); }
+
+/* Font Awesome */
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src:  url("../fonts/Fontawesome/fa-solid-900.eot");
+  src:  url("../fonts/Fontawesome/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Fontawesome/fa-solid-900.woff2") format("woff2"),
+        url("../fonts/Fontawesome/fa-solid-900.woff") format("woff"),
+        url("../fonts/Fontawesome/fa-solid-900.ttf") format("truetype"),
+        url("../fonts/Fontawesome/fa-solid-900.svg#fontawesome") format("svg"); }
+
+@font-face {
+  font-family: 'Font Awesome 5 Light';
+  font-style: normal;
+  font-weight: 300;
+  src:  url("../fonts/Fontawesome/fa-light-300.eot");
+  src:  url("../fonts/Fontawesome/fa-light-300.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Fontawesome/fa-light-300.woff2") format("woff2"),
+        url("../fonts/Fontawesome/fa-light-300.woff") format("woff"),
+        url("../fonts/Fontawesome/fa-light-300.ttf") format("truetype"),
+        url("../fonts/Fontawesome/fa-light-300.svg#fontawesome") format("svg"); }
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  src:  url("../fonts/Fontawesome/fa-brands-400.eot");
+  src:  url("../fonts/Fontawesome/fa-brands-400.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Fontawesome/fa-brands-400.woff2") format("woff2"),
+        url("../fonts/Fontawesome/fa-brands-400.woff") format("woff"),
+        url("../fonts/Fontawesome/fa-brands-400.ttf") format("truetype"),
+        url("../fonts/Fontawesome/fa-brands-400.svg#fontawesome") format("svg"); }
+
+@font-face {
+  font-family: 'Font Awesome 5 Duotone';
+  font-style: normal;
+  font-weight: 900;
+  src:  url("../fonts/Fontawesome/fa-duotone-900.eot");
+  src:  url("../fonts/Fontawesome/fa-duotone-900.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Fontawesome/fa-duotone-900.woff2") format("woff2"),
+        url("../fonts/Fontawesome/fa-duotone-900.woff") format("woff"),
+        url("../fonts/Fontawesome/fa-duotone-900.ttf") format("truetype"),
+        url("../fonts/Fontawesome/fa-duotone-900.svg#fontawesome") format("svg"); }
+
+@font-face {
+  font-family: 'Font Awesome 5 Regular';
+  font-style: normal;
+  font-weight: 400;
+  src:  url("../fonts/Fontawesome/fa-regular-400.eot");
+  src:  url("../fonts/Fontawesome/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Fontawesome/fa-regular-400.woff2") format("woff2"),
+        url("../fonts/Fontawesome/fa-regular-400.woff") format("woff"),
+        url("../fonts/Fontawesome/fa-regular-400.ttf") format("truetype"),
+        url("../fonts/Fontawesome/fa-regular-400.svg#fontawesome") format("svg"); }
+
+/* Assignments */
+body { font-family: 'Roboto Regular'; }
+h1, h2, h3 { font-family: 'Roboto Slab Bold'; }
+h4, h5, p, li { font-family: 'Roboto Regular'; }
+
+i, em { font-family: 'Roboto Italic'; }
+b, strong { font-family: 'Roboto Black'; }
+
+.f-roboto-slab { font-family: 'Roboto Slab'; }
+.f-roboto { font-family: 'Roboto Regular'; }
+
+footer h5 { font-family: 'Roboto Slab'; }
+
+.fal { font-family: 'Font Awesome 5 Light'; font-weight: 300; }
